@@ -2,16 +2,16 @@ const grid = document.querySelector('.grid'); /*Selecionando a grid criada no cs
 
 /*Criando uma constante para as cartas do jogo da memória - frente das cartas*/ 
 const cartas = [
-    'cardCostelaBarbecue',
-    'cardDakgangjeong',
-    'cardEscargot',
-    'cardFalafel',
-    'cardFeijoada',
-    'cardLagostins',
-    'cardPeixeBatatasFritas',
-    'cardSamosa',
-    'cardSpaghetti',
-    'cardSteakTartare'
+    'CardCostelaBarbecue',
+    'CardDakgangjeong',
+    'CardEscargot',
+    'CardFalafel',
+    'CardFeijoada',
+    'CardLagostins',
+    'CardPeixeBatatasFritas',
+    'CardSamosa',
+    'CardSpaghetti',
+    'CardSteakTartare'
 ];
 
 /*Criando um elemento*/
