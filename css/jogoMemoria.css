@@ -87,7 +87,7 @@ body{
 
 /* COSTAS DAS CARTAS */
 .back{
-    background-image: url(../img/CardCapa.jpg);
+    background-image: url(../img/CardCapa.png); /*Imagem do fundo*/
     backface-visibility: hidden; /* Ao virada para frente as costas deixam de ser visíveis */
 }
 
