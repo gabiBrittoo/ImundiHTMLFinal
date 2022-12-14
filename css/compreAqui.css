@@ -431,7 +431,7 @@ h2 {
 }
 
 /* BUTTON */
-.btn {
+.content .btn {
     margin-top: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
@@ -441,8 +441,12 @@ h2 {
     cursor: pointer;
 }
 
-.btn:hover {
+.content .btn:hover {
     background: #222;
+}
+
+.content .btn {
+    padding: .8rem 2.5rem;
 }
 
 /* REALIZANDO A MEDIA DA PÁGINA */
