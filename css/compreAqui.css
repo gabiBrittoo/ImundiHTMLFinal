@@ -96,8 +96,8 @@ h2 {
 .produto-area {
     display: -ms-grid;
     display: grid; /* Display em forma de grade */
-    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit]; /* Tamanho e definição das colunas */
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); /* Define que toda repetição de coluna deve ser igual */
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit]; /* Tamanho e definição das colunas */
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr)); /* Define que toda repetição de coluna deve ser igual */
     gap: 1.5rem; /* Espaçamento da linha para a coluna */
 }
 
@@ -106,7 +106,6 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     margin: 30px auto 50px auto;
-    width: 400px;
     position: relative;
     background: #f3f3f3;
     text-align: center;
