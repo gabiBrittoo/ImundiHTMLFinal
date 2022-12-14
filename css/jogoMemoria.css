@@ -87,7 +87,7 @@ body{
 
 /* COSTAS DAS CARTAS */
 .back{
-    background-image: url(../img/ImagensCards/CardCapa.png);
+    background-image: url(../img/CardCapa.png);
     backface-visibility: hidden; /* Ao virada para frente as costas deixam de ser visíveis */
 }
 
@@ -103,7 +103,7 @@ body{
 
 /* DEFININDO O DESIGN E FUNÇÕES DA ÁREA DO BANNER INICIAL DA PÁGINA */
 .heading {
-    background: url(../img/ImagensAtualizadas/FundoQuatro.png) no-repeat;
+    background: url(../img/FundoQuatro.png) no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
