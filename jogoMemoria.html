@@ -50,7 +50,7 @@
             <input type="password" placeholder="Insira sua senha" class="box">
             <!-- Criando a função de cadastro do login -->
             <div class="funcoes">
-                <input type="submit" value="Entrar" class="btn">
+                <input type="submit" value="Entrar" class="btn" onclick="funcao1()" value="Exibir Alert">
                 <p>Não possui uma conta? <a href="criarConta.html">Cadastre-se</a></p>
             </div>
         </form>
@@ -79,6 +79,14 @@
         <!-- Aplicando a função de tabela/grid na página -->
         <div class="grid"></div>
     </body>
+    
+    <!-- Adicionando confirmação de que a compra foi realizada -->
+    <script>
+        function funcao1()
+        {
+        alert("Sua conta foi logada ;)");
+        }
+    </script>
 
     <!-- Footer -->
     <footer> <!-- O footer é o rodapé do nosso site, contendo informações básicas e importantes da criação do mesmo -->
