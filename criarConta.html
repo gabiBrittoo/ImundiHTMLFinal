@@ -49,7 +49,7 @@
             <input type="password" placeholder="Insira sua senha" class="box">
             <!-- Criando a função de cadastro do login -->
             <div class="funcoes">
-                <input type="submit" value="Entrar" class="btn">
+                <input type="submit" value="Entrar" class="btn" onclick="funcao1()" value="Exibir Alert">
                 <p>Não possui uma conta? <a href="criarConta.html">Cadastre-se</a></p>
             </div>
         </form>
@@ -97,6 +97,14 @@
             <button>Cadastrar</button> 
         </form>
     </div>
+    
+    <!-- Adicionando confirmação de que a compra foi realizada -->
+            <script>
+                function funcao1()
+                {
+                alert("Sua conta foi logada ;)");
+                }
+            </script>
 
     <!-- Linkando o JavaScript -->
     <script src="./js/criarConta.js"></script>
