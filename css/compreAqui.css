@@ -430,24 +430,19 @@ h2 {
     font-weight: bold;
 }
 
-.cart--finalizar {
-    padding: 20px 30px;
-    background-color: #bac34e;
-    color: #FFF;
+/* BUTTON */
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: #bac34e;
+    color: #fff;
+    font-size: 1.7rem;
     cursor: pointer;
-    text-align: center;
-    margin-top: 20px;
-    transition: all ease .2s;
 }
 
-.cart--finalizar:hover {
-    background-color: #222;
-    transition: all ease .8s;
-}
-
-.cart--finalizar a:hover {
-    color: rgb(255, 255, 255);
-    transition: all ease .8s;
+.btn:hover {
+    background: #222;
 }
 
 /* REALIZANDO A MEDIA DA PÁGINA */
