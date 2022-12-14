@@ -87,7 +87,7 @@ const createCard = (carta) => {
     const back = createElement('div', 'face back');
 
     /*A imagem da frente deve equivaler a const cartas*/
-    front.style.backgroundImage = `url('../ImundiHTMLFinal/img/${carta}.png')`;  
+    front.style.backgroundImage = `url('../ImundiHTMLFinal/img/${carta}.jpg')`;  
 
     /*Criando a frente e traseira das cartas*/
     card.appendChild(front);
